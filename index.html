@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Simply Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Andrew K</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a id="work_click" href="#portfolio">Work</a></li>
+                <li><a id="about_click" href="#about">About</a></li>
+                <li><a id="contact_click" href="#contact">Contact</a></li>
+
+                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100007260046342"><img class="icon" src="img/facebook-logo.svg"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/heute.morgen/"><img class="icon" src="img/inst-logo.svg"></a></li>
+                <li><a target="_blank" href="mailto:a.koval1996@gmail.com"><img class="icon" src="img/mail-logo.svg"></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="portfolio">
+<div class="container-fluid bg-1 text-center">
+    <h3 class="margin">My Portfolio</h3>
+    <div class="row">
+        <div class="col-sm-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <img src="img/img1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <img src="img/img2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <img src="img/img3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        </div>
+        <p class="text_p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="col-sm-4">
+            <img src="img/_DSC08396.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-4">
+            <img src="img/_DSC08389.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-4">
+            <img src="img/_DSC08489.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        </div>
+
+    </div>
+</div>
+</section>
+
+<section id="about">
+<div class="container-fluid bg-2 text-center">
+    <h3 class="margin">About</h3>
+    <img src="img/me.png" class="img-responsive img-circle margin" style="display:inline" alt="Me" width="350" height="350">
+    <p class="text_p">Andrew Koval is a Kyiv, Ukraine-born traveller, photographer and programmer basen in Merseburg, Germany.
+        After 2 years in Kyiv Polytechnical University he took part in Double-Diploma Programme with Hochschule Merseburg,
+        University of Applied Scinces and moved to Germany. In 2017 he got a degree of Bachelor of Sciences in Computer Science.
+        Now he is studying Applied Informatics in Germany.</p>
+
+    <p class="text_p">His passion is Mountains and Photography.</p>
+</div>
+</section>
+
+<section id="contact">
+<div class="container-fluid bg-3 text-center">
+    <h3>Contact</h3>
+        <p class="col-sm-4">Eberhard-Leibnitz Str. 3, Wh 5A, room 105 <br/>
+            06217 Merseburg, Germany<br/>
+            +49 152 565 56 892
+        </p>
+        <p class="col-sm-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="col-sm-4">Balzaka Str. 84a, office 350 <br/>
+            02097 Kyiv, Ukraine<br/>
+            +38 097 560 04 39
+        </p>
+</div>
+    <div id="map"></div>
+</section>
+
+<footer class="container-fluid bg-4 text-center">
+    <a target="_blank" href="https://vk.com/heute.morgen">&copy; 2017 Andrew Koval</a>
+</footer>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCretUnejnQTkyvgWyQk4AZ_mUlczb2TvA&callback=initMap"
+        async defer></script>
+<script src="js/zenscroll-min.js"></script>
+</body>
+</html>

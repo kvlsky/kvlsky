@@ -1,0 +1,108 @@
+
+body {
+    font: 20px Oswald, sans-serif !important;
+    line-height: 1.8;
+    color: #1d1e1f;
+
+}
+
+p {
+    padding: 0 !important;
+    font-size: 16px;
+}
+h3 { color: #3F51B5 !important; }
+
+#map {
+    height: 450px;
+    width: auto;
+    margin: 0 70px 20px 70px;
+}
+
+.margin {margin-bottom: 20px;}
+
+.text_p {
+    padding: 0 200px 0 200px !important;
+}
+.bg-1 {
+    padding-top: 100px !important;
+    background-color: white;
+    color: #1d1e1f;
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+}
+.col-sm-4 {
+    padding: 5px !important;
+}
+
+.bg-2 {
+    padding-top: 70px !important;
+    background-color: white;
+    color: #1d1e1f;
+    border-style: solid none none none;
+    border-width: 2px;
+    border-color: #3F51B5;
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+}
+.bg-3 {
+    padding-top: 70px !important;
+    background-color: white;
+    color: #1d1e1f;
+    border-style: solid none none none;
+    border-width: 2px;
+    border-color: #3F51B5;
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+}
+.bg-4 {
+    text-align: left !important;
+    padding-left: 0 !important;
+    font-size: 17px;
+    border-style: solid none none none;
+    border-width: 2px;
+    background-color: white;
+    color: #3F51B5;
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+}
+.container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-nav li a {
+    color: #3F51B5 !important;
+    display: block;
+    width: 100%;
+}
+.navbar-nav li a:hover {
+    color: #1d1e1f !important;
+    transition: color 150ms ease-in-out;
+}
+
+.navbar-brand {
+    color: #3F51B5 !important;
+    font-size: 25px !important;
+}
+.navbar-brand a:hover {
+    color: #1d1e1f !important;
+}
+
+footer a {
+    color: #3F51B5;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #3F51B5;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+}
