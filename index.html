@@ -42,37 +42,52 @@
     <h3 class="margin">My Portfolio</h3>
     <div class="row">
         <div class="col-sm-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <img src="img/img1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+
+            <img src="img/img1.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
+            <!--<p>Olympic Stadium, Kyiv 2015</p>-->
         </div>
         <div class="col-sm-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <img src="img/img2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+
+            <img src="img/img2.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
+            <!--<p>Lysa Hora, Kyiv 2016</p>-->
         </div>
         <div class="col-sm-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <img src="img/img3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-        </div>
-        <p class="text_p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-        <div class="col-sm-4">
-            <img src="img/_DSC08396.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-4">
-            <img src="img/_DSC08389.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-4">
-            <img src="img/_DSC08489.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+            <img src="img/img3.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
+            <!--<p>"Start" Stadium, Kyiv 2016</p>-->
         </div>
 
+        <div class="col-sm-4">
+            <img src="img/img4.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
+            <!--<p>"Start" Stadium, Kyiv 2016</p>-->
+        </div>
+        <div class="col-sm-4">
+            <img src="img/img5.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
+            <!--<p>"Start" Stadium, Kyiv 2016</p>-->
+        </div>
+        <div class="col-sm-4">
+            <img src="img/img6.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
+            <!--<p>"Start" Stadium, Kyiv 2016</p>-->
+        </div>
+
+        <div class="col-sm-4">
+            <img src="img/_DSC08396.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
+        </div>
+        <div class="col-sm-4">
+            <img src="img/_DSC08389.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
+        </div>
+        <div class="col-sm-4">
+            <img src="img/_DSC08489.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
+        </div>
+        <!--<p class="text_p">News Museum tsn.ua (1+1 media), Kyiv 2017</p>-->
+
+        <!-- Modal for full size images on click-->
+        <!--<div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+            <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption"></p>
+            </div>
+        </div>-->
     </div>
 </div>
 </section>
@@ -81,13 +96,65 @@
 <div class="container-fluid bg-2 text-center">
     <h3 class="margin">About</h3>
     <img src="https://scontent-frx5-1.cdninstagram.com/t51.2885-15/e35/20987446_528608984149081_7157693445530714112_n.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Me" width="300" height="300">
-    <p class="text_p">Andrew Koval is a Kyiv, Ukraine-born traveller, photographer and programmer basen in Merseburg, Germany.
-        After 2 years in Kyiv Polytechnical University he took part in Double-Diploma Programme with Hochschule Merseburg,
-        University of Applied Scinces and moved to Germany. In 2017 he got a degree of Bachelor of Sciences in Computer Science.
-        Now he is studying Applied Informatics in Germany.</p>
+    <p class="text_p">Andrew Koval is a Kyiv, Ukraine-born traveller, photographer and programmer basen in Merseburg, Germany.<br/>
+        After 2 years in Kyiv Polytechnical University he took part in Double-Diploma Programme with<br/> Hochschule Merseburg,
+        University of Applied Scinces and moved to Germany.<br/> In 2017 he got a degree of Bachelor of Sciences in Computer Science.<br/>
+        Now he is studying Applied Informatics in Germany. His passion are Mountains and Photography.</p>
+    <h3 class="margin">Skills</h3>
+    <section class="skills-section">
+        <div class="col-sm-6 skills">
+            <p>Communication</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                     aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                    <span class="sr-only">75% Complete</span>
+                </div>
+            </div>
 
-    <p class="text_p">His passion are Mountains and Photography.</p>
+            <p>Learning</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                     aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    <span class="sr-only">80% Complete</span>
+                </div>
+            </div>
+
+            <p>Organisation</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                     aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                    <span class="sr-only">75% Complete</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 skills">
+            <p>Programming</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                     aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    <span class="sr-only">70% Complete</span>
+                </div>
+            </div>
+
+            <p>UX/UI Design</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                     aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    <span class="sr-only">60% Complete</span>
+                </div>
+            </div>
+
+            <p>Photography</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                     aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                    <span class="sr-only">65% Complete</span>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
+
 </section>
 
 <section id="contact">
@@ -97,8 +164,8 @@
             06217 Merseburg, Germany<br/>
             +49 152 565 56 892
         </p>
-        <p class="col-sm-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="col-sm-4">For Photography and Web UI Inquiries:<br/> Please email me at a.koval1996@gmail.com
+        </p>
         <p class="col-sm-4">Balzaka Str. 84a, office 350 <br/>
             02097 Kyiv, Ukraine<br/>
             +38 097 560 04 39
