@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5f5ab0b-c45b-41bd-a476-d29389a8bea5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheet.css" afterPath="$PROJECT_DIR$/css/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/js.js" afterPath="$PROJECT_DIR$/js/js.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -294,7 +291,7 @@
       <workItem from="1506420724408" duration="22815000" />
       <workItem from="1506464360607" duration="1771000" />
       <workItem from="1506512223893" duration="8147000" />
-      <workItem from="1506591511756" duration="14428000" />
+      <workItem from="1506591511756" duration="14582000" />
     </task>
     <task id="LOCAL-00001" summary="few changes">
       <created>1506465547540</created>
@@ -324,11 +321,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506539911457</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" skill section + image onclick (1st one)">
+      <created>1506632556679</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1506632556679</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69119000" />
+    <option name="totallyTimeSpent" value="69273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,7 +374,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="few changes" />
     <MESSAGE value="skills section" />
-    <option name="LAST_COMMIT_MESSAGE" value="skills section" />
+    <MESSAGE value=" skill section + image onclick (1st one)" />
+    <option name="LAST_COMMIT_MESSAGE" value=" skill section + image onclick (1st one)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
