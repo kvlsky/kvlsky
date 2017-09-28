@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/js.js"></script>
+
 </head>
 <body>
 
@@ -42,41 +42,39 @@
     <h3 class="margin">My Portfolio</h3>
     <div class="row">
         <div class="col-sm-4">
-
-            <img src="img/img1.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
-            <!--<p>Olympic Stadium, Kyiv 2015</p>-->
+            <img src="img/img1.jpg" id="myImg" class="img-responsive margin" style="width:100%" alt="Image">
         </div>
-        <div class="col-sm-4">
 
-            <img src="img/img2.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
-            <!--<p>Lysa Hora, Kyiv 2016</p>-->
-        </div>
-        <div class="col-sm-4">
-            <img src="img/img3.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
-            <!--<p>"Start" Stadium, Kyiv 2016</p>-->
+        <div id="myModal" class="modal">
+            <span class="close" onclick="getElementById('myModal').style.display='none'">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
         </div>
 
         <div class="col-sm-4">
-            <img src="img/img4.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
-            <!--<p>"Start" Stadium, Kyiv 2016</p>-->
+            <img src="img/img2.jpg" class="img-responsive margin" style="width:100%" alt="Image" >
         </div>
         <div class="col-sm-4">
-            <img src="img/img5.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
-            <!--<p>"Start" Stadium, Kyiv 2016</p>-->
-        </div>
-        <div class="col-sm-4">
-            <img src="img/img6.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
-            <!--<p>"Start" Stadium, Kyiv 2016</p>-->
+            <img src="img/img3.jpg" class="img-responsive margin" style="width:100%" alt="Image" >
         </div>
 
         <div class="col-sm-4">
-            <img src="img/_DSC08396.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
+            <img src="img/img4.jpg" class="img-responsive margin" style="width:100%" alt="Image" >
         </div>
         <div class="col-sm-4">
-            <img src="img/_DSC08389.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
+            <img src="img/img5.jpg" class="img-responsive margin" style="width:100%" alt="Image" >
         </div>
         <div class="col-sm-4">
-            <img src="img/_DSC08489.jpg" class="img-responsive margin" style="width:100%" alt="Image" onclick="onClick(this)">
+            <img src="img/img6.jpg" class="img-responsive margin" style="width:100%" alt="Image" >
+        </div>
+        <div class="col-sm-4">
+            <img src="img/_DSC08396.jpg" class="img-responsive margin" style="width:100%" alt="Image" >
+        </div>
+        <div class="col-sm-4">
+            <img src="img/_DSC08389.jpg" class="img-responsive margin" style="width:100%" alt="Image" >
+        </div>
+        <div class="col-sm-4">
+            <img src="img/_DSC08489.jpg" class="img-responsive margin" style="width:100%" alt="Image" >
         </div>
         <!--<p class="text_p">News Museum tsn.ua (1+1 media), Kyiv 2017</p>-->
 
@@ -96,17 +94,19 @@
 <div class="container-fluid bg-2 text-center">
     <h3 class="margin">About</h3>
     <img src="https://scontent-frx5-1.cdninstagram.com/t51.2885-15/e35/20987446_528608984149081_7157693445530714112_n.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Me" width="300" height="300">
-    <p class="text_p">Andrew Koval is a Kyiv, Ukraine-born traveller, photographer and programmer basen in Merseburg, Germany.<br/>
-        After 2 years in Kyiv Polytechnical University he took part in Double-Diploma Programme with<br/> Hochschule Merseburg,
-        University of Applied Scinces and moved to Germany.<br/> In 2017 he got a degree of Bachelor of Sciences in Computer Science.<br/>
-        Now he is studying Applied Informatics in Germany. His passion are Mountains and Photography.</p>
-    <h3 class="margin">Skills</h3>
-    <section class="skills-section">
-        <div class="col-sm-6 skills">
+    <div class="about">
+    <p class="text-justify col-sm-6 col-sm-offset-3">Andrew Koval is a Kyiv, Ukraine-born traveller, photographer and programmer basen in Merseburg, Germany.
+        After 2 years in Kyiv Polytechnical University he took part in Double-Diploma Programme with Hochschule Merseburg,
+        University of Applied Scinces and moved to Germany. In 2017 he got a degree of Bachelor of Sciences in Computer Science.
+        Now he is studying Applied Informatics in Germany. His passion are Mountains and Photography.
+    </p>
+        <section class="skills-section col-sm-6 col-sm-offset-3">
+        <h3 class="margin">Skills</h3>
+        <div class=" skills ">
             <p>Communication</p>
             <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75"
-                     aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                     aria-valuemin="0" aria-valuemax="100%" style="width:75%" >
                     <span class="sr-only">75% Complete</span>
                 </div>
             </div>
@@ -127,7 +127,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 skills">
+        <div class="skills ">
             <p>Programming</p>
             <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80"
@@ -136,7 +136,7 @@
                 </div>
             </div>
 
-            <p>UX/UI Design</p>
+            <p>Web Design</p>
             <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70"
                      aria-valuemin="0" aria-valuemax="100" style="width:70%">
@@ -146,13 +146,14 @@
 
             <p>Photography</p>
             <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="65"
-                     aria-valuemin="0" aria-valuemax="100" style="width:65%">
-                    <span class="sr-only">65% Complete</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                     aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    <span class="sr-only">70% Complete</span>
                 </div>
             </div>
         </div>
     </section>
+    </div>
 </div>
 
 </section>
@@ -181,5 +182,6 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCretUnejnQTkyvgWyQk4AZ_mUlczb2TvA&callback=initMap"
         async defer></script>
 <script src="js/zenscroll-min.js"></script>
+<script src="js/js.js"></script>
 </body>
 </html>
