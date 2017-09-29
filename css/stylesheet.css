@@ -20,20 +20,9 @@ h3 { color: #3F51B5 !important; }
 }
 
 .margin {margin-bottom: 20px;}
-.img-responsive {
+.img-modal {
     cursor: pointer;
 }
-/*.img-responsive img:hover {
-    opacity: 0.1;
-    transition: 0.3s;
-}*/
-
-
-/*.text_p {
-    text-align: justify !important;
-    padding: 0 10% 0 10% !important;
-}*/
-
 
 .bg-1 {
     padding-top: 100px !important;
@@ -60,10 +49,6 @@ h3 { color: #3F51B5 !important; }
     margin-right: 70px !important;
 }
 
-/*.about {
-    padding-left: 300px;
-    padding-right: 300px;
-}*/
 .bg-3 {
     padding-top: 70px !important;
     background-color: white;
@@ -130,22 +115,6 @@ footer a:hover {
     width: 20px;
     height: 20px;
 }
-/*.skills {
-    margin: 0;
-    padding: 0 300px 0 300px!important;
-}*/
-/*.about {
-    align-content: center !important;
-}*/
-
-
-/*#myImg {
-    cursor: pointer;
-    transition: 0.3s;
-}*/
-/*#myImg:hover {
-    opacity: 0.7;
-}*/
 
 .modal {
     display: none;
