@@ -22,6 +22,8 @@ h3 { color: #3F51B5 !important; }
 .margin {margin-bottom: 20px;}
 .img-modal {
     cursor: pointer;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .bg-1 {

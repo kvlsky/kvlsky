@@ -29,7 +29,7 @@ var captionText = document.getElementById("caption");
 var span = document.getElementsByClassName("close")[0];
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 
-for ( i=0; i<=9; i++) {
+for ( i=0; i<=14; i++) {
     var img = document.getElementsByClassName("img-modal")[i];
 
     img.onclick = function(){
